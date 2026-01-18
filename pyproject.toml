@@ -1,0 +1,11 @@
+[project]
+name = "auto-certbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "certbot>=5.2.2",
+    "qiniu>=7.17.0",
+    "requests>=2.32.5",
+]
